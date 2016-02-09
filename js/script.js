@@ -43,11 +43,16 @@ $(function() {
   });
 });
 
+$(document).ready(function()  {
+  $("button#hello").click(function() {
+    $("ul").prepend("<li>Hello!</li>");
+  });
 
+  $("button#goodbye").click(function() {
+    $("ul").prepend("<li>Goodbye!</li>");
+  });
 
-// $(function() {
-//   $(".clickable2").click(function() {
-//     $("#faded").fadeOut();
-//     $("#notThere").fadeIn();
-//   });
-// });
+  $("button#stop").click(function() {
+    $("ul").prepend("<li>Stop Copying me!</li>");
+  });
+});
