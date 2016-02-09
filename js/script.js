@@ -11,6 +11,37 @@ $(function() {
   });
 });
 
+$(function() {
+  $(".modulocard").click(function() {
+    $(".afront").slideToggle();
+    $(".aback").slideToggle();
+  });
+});
+
+$(function() {
+  $(".operatorscard").click(function() {
+    $(".bfront").slideToggle();
+    $(".bback").slideToggle();
+  });
+});
+$(function() {
+  $(".nancard").click(function() {
+    $(".cfront").slideToggle();
+    $(".cback").slideToggle();
+  });
+});
+$(function() {
+  $(".namecard").click(function() {
+    $(".dfront").slideToggle();
+    $(".dback").slideToggle();
+  });
+});
+$(function() {
+  $(".functioncard").click(function() {
+    $(".efront").slideToggle();
+    $(".eback").slideToggle();
+  });
+});
 
 
 
