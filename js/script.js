@@ -45,14 +45,17 @@ $(function() {
 
 $(document).ready(function()  {
   $("button#hello").click(function() {
-    $("ul").prepend("<li>Hello!</li>");
+    $("ul#user").prepend("<li>Hello!</li>");
+    $("ul#webpage").prepend("<li>Why Hello to you too!!</li>");
   });
 
   $("button#goodbye").click(function() {
-    $("ul").prepend("<li>Goodbye!</li>");
+    $("ul#user").prepend("<li>Goodbye!</li>");
+    $("ul#webpage").prepend("<li>Adios my friend!</li>");
   });
 
   $("button#stop").click(function() {
-    $("ul").prepend("<li>Stop Copying me!</li>");
+    $("ul#user").prepend("<li>Stop Copying me!</li>");
+    $("ul#webpage").prepend("<li>I would never do such a thing!!</li>");
   });
 });
